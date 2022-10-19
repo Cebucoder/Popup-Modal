@@ -1,0 +1,76 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+body{
+	background: #53304e;
+	font-family: monospace;
+}
+button{
+	width: 200px;
+	height: 60px;
+	border-radius: 50px;
+	border: none;
+	background: #fff;
+	font-size: 18px;
+	font-family: monospace;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+button:hover{
+	background: #fff;
+}
+.popup{
+	width: 400px;
+	height: 350px;
+	background: #f7f7f7;
+	border-radius: 10px;
+	left: 30%;
+	top: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.4s;
+
+}
+
+.open-popup{
+ 	visibility: visible;
+ 	opacity: 1;
+ 	left: 50%;
+
+}
+
+.fa-check{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background: limegreen;
+	margin-top: 30px;
+}
+i{
+	font-size: 40px;
+	padding: 15px;
+	color: #fff;
+}
+.content{
+	width: 100%;
+}
+.content h2{
+	margin-top: 20px;
+	font-size: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.content button{
+	margin-top: 80px;
+	background: limegreen;
+	color: #fff;
+	font-size: 18px;
+	font-family: monospace;
+}
